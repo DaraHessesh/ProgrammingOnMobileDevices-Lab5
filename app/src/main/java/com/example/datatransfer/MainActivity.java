@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     // *** Переменные ***
     // Социальное положение, ставим по умолчанию на всякий случай
-    public String SocialStatus = "Student";
+    public String SocialStatus = "Студент";
     // Галочки
     // По умолчанию пусто
     // Если нажаты то записываем сюда
