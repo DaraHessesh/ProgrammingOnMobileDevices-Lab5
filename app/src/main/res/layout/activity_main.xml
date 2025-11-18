@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:text="@string/enterFIO" />
+
+    <EditText
+        android:id="@+id/editText_YearBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="datetime|date"
+        tools:text="@string/enterYear" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/textView_Status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enterStatus" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton_Scholar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioClick"
+            android:text="@string/statusScholar" />
+
+        <RadioButton
+            android:id="@+id/radioButton_Student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="onRadioClick"
+            android:text="@string/statusStudent" />
+
+        <RadioButton
+            android:id="@+id/radioButton_Worker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioClick"
+            android:text="@string/statusWorker" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Foreign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickCheck"
+        android:text="@string/textForeign" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Married"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickCheck"
+        android:text="@string/textMarried" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/buttonTextOK" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DataTransfer</string>
+    <string name="enterFIO">Введите фамилию</string>
+    <string name="enterYear">Введите год рождения</string>
+    <string name="enterStatus">Социальное положение</string>
+    <string name="statusScholar">Школьник</string>
+    <string name="statusStudent">Студент</string>
+    <string name="statusWorker">Рабочий</string>
+    <string name="buttonTextOK">Ок</string>
+    <string name="second">secondScreen</string>
+    <string name="textForeign">Иностранец</string>
+    <string name="textMarried">Женат/Замужем</string>
+</resources>
