@@ -10,4 +10,8 @@
     <string name="second">secondScreen</string>
     <string name="textForeign">Иностранец</string>
     <string name="textMarried">Женат/Замужем</string>
+    <string name="textFIOSecond">ФИО</string>
+    <string name="textview">TextView</string>
+    <string name="textYearSecond">Год рождения</string>
+    <string name="textSocialSecond">Социальное положение</string>
 </resources>
